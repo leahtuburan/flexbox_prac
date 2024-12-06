@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mimi</title>
+</head>
+<style>
+     * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            height: calc(100vh - 8px);
+            padding: 4px;
+        }
+
+        nav, main, aside, footer {
+            border: 1px solid black;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            padding: 3px;
+            gap: 3px;
+            justify-content: space-between;
+        }
+
+        .nav1 {
+            display: flex;
+            flex-direction: row;
+            gap: 3px;
+            align-items: center;
+        }
+
+        .nbox1 {
+            background-color: red;
+            height: 35px;
+            width: 35px;
+        }
+
+        .nav2{
+            display: flex;
+            flex-direction: row;
+            gap: 3px;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .nbox2 {
+            background-color: red;
+            height: 25px;
+            width: 55px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-grow: 1;
+            gap: 4px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            flex-grow: 1;
+        }
+       
+        .main1 {
+            border: 1px solid black;
+            display: flex;
+            width: 50%;
+            gap: 4px;
+            padding: 4px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 4px;
+            justify-content: center;
+            align-content: center;
+
+        }
+        .minibox1 {
+            border: 1px solid black;
+            height: 20vh;
+            width: 14vw;
+        }
+
+        .main2 {
+            border: 1px solid black;
+            display: flex;
+            gap: 4px;
+            width: 50%;
+            padding: 6px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 4px;
+            align-content: flex-start;   
+        }
+
+        .mini2box {
+            border: 1px solid black;
+            height: 75px;
+            width: 75px;
+
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+            gap: 4px;
+        }
+
+        .abox{
+            border: 1px solid black;
+            width: 15vw;
+            height: 28px;
+        }
+
+        footer{
+            display: flex;
+            gap: 2px;
+            padding: 2px;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .foot1 {
+            display: flex;  
+            align-items: center;
+        }
+
+       .f1box {
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            margin-right: 2px;
+            margin-bottom: 2px;
+        }
+    
+        .foot3 {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            padding: 2px;
+        }
+
+        .f3box {
+            background-color: red;
+            width: 15px;
+            height: 15px;
+        }
+
+        .footflex {
+            display: flex;
+            justify-content: center;  
+        }
+
+</style>
+<body>
+    <nav>
+        <div class="nav1">
+            <div class="nbox1"></div>
+            <div>FLEXBOX</div>
+        </div>
+        <div class="nav2">
+            <div class="nbox2"></div>
+            <div class="nbox2"></div>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <div class="main1">
+                <div class="minibox1"></div>
+                <div class="minibox1"></div>
+                <div class="minibox1"></div>
+                <div class="minibox1"></div>
+            </div>
+            <div class="main2">
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+                <div class="mini2box"></div>
+        </div>
+        </main>
+        <aside>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+            <div class="abox"></div>
+        </aside>
+    </div>
+    <footer>
+        <div class="foot1">
+            <div class="f1box"></div>
+            <div>FLEXBOX</div>
+        </div>
+<hr>
+
+        </div>
+    
+        <div class="foot3">
+            <div class="f3box"></div>
+            <div class="f3box"></div>
+            <div class="f3box"></div>
+            <div class="f3box"></div>
+            <div class="f3box"></div>
+        </div>
+      
+        <div class="footflex">©Copyright All rights reserved</div>
+    </div>
+    </footer>
+</body>
+</html>

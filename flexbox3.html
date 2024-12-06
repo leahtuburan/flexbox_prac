@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            margin: 4px;
+            gap: 4px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .rednav {
+            background-color: red;
+            width: 35px;
+            height: 35px;
+            margin: 4px;
+        }
+
+        .ngroup {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .navred {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            margin: 4px;
+        }
+
+        .reds {
+            background-color: red;
+            width: 50px;
+            height: 30px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        .main1 {
+            border: 1px solid black;
+            height: 525px;
+        }
+
+        .m1box {
+            border: 1px solid black;
+            height: 23px;
+            width: 220px;
+            margin: 4px;
+        }
+
+        .main2 {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            width: 900px;
+            margin-left: 4px;
+            justify-content: center;
+            align-items: center;
+            height: 525px;
+        }
+
+        .m2box {
+            border: 1px solid black;
+            width: 75px;
+            height: 195px;
+            align-items: center
+        }
+
+        .main3 {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            gap: 4PX;
+            margin-left: 4px;
+            padding: 4PX;
+          
+        }
+
+        .m3box {
+            border: 1px solid black;
+            width: 220px;
+            height: 167.3px;
+        }
+
+        footer {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            padding: 4px;
+        }
+
+        .fred {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+
+        .footred {
+            background-color: red;
+            width: 18px;
+            height: 16px;
+        }
+
+        .fflex {
+            display: flex;
+            justify-content: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="ngroup">
+        <div class="rednav"></div>
+        <div class="flexnav">FLEXBOX</div>
+    </div>
+    <div class="navred">
+        <div class="reds"></div>
+        <div class="reds"></div>
+        <div class="reds"></div>
+        <div class="reds"></div>
+    </div>
+    </nav>
+
+    <main>
+        <div class="main1">
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+            <div class="m1box"></div>
+        </div>
+        <div class="main2">
+            <div class="m2box"></div>
+            <div class="m2box"></div>
+            <div class="m2box"></div>
+            <div class="m2box"></div>
+            <div class="m2box"></div>
+            <div class="m2box"></div>
+        </div>
+        <div class="main3">
+            <div class="m3box"></div>
+            <div class="m3box"></div>
+            <div class="m3box"></div>
+        </div>
+    </main>
+    
+    <footer>
+    <div class="fred">
+        <div class="footred"></div>
+        <div class="footred"></div>
+        <div class="footred"></div>
+        <div class="footred"></div>
+        <div class="footred"></div>
+    </div>
+    <div class="fflex">
+        Copyright Flexbox
+    </div>
+
+    </footer>
+</body>
+</html>
